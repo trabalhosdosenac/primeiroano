@@ -1,0 +1,33 @@
+body {
+            font-family: 'Inter', sans-serif;
+            background-color: #000;
+        }
+
+        .glow {
+            font-family: 'Dancing Script', cursive;
+            color: #fff;
+            text-shadow: 
+                0 0 7px #23f06b,
+                0 0 10px #23f06b,
+                0 0 21px #23f06b,
+                0 0 42px #0fa,
+                0 0 82px #0fa;
+        }
+
+        .arrow-glow {
+            color: #fff;
+            text-shadow:
+                0 0 5px #23f06b,
+                0 0 10px #23f06b,
+                0 0 15px #0fa;
+        }
+
+        .project-link .arrow {
+            opacity: 0;
+            transform: translateX(-10px);
+            transition: opacity 0.3s ease, transform 0.3s ease;
+        }
+        .project-link:hover .arrow {
+            opacity: 1;
+            transform: translateX(0);
+        }
